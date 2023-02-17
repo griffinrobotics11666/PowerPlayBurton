@@ -48,7 +48,7 @@ public class PeePeePooPoo extends LinearOpMode {
                 myServo.setPosition(myServo.getPosition()+turnSpeed*gamepad1.right_stick_x);
             }
             else {
-                myServo.setPosition(0.32z);
+                myServo.setPosition(0.32);
             }
             if (gamepad1.a){
                 requestOpModeStop();
